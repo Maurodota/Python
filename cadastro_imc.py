@@ -1,4 +1,4 @@
-# Faça um programa que realize o cadastro de um usuário a partir de seu nome, idade, peso, altura que será informado pelo usúario.
+# Programa que realize o cadastro de um usuário a partir de seu nome, idade, peso, altura que será informado pelo usúario.
 # Realizar o calculo do IMC segundo a formula (IMC = PESO /(ALTURA * ALTURA)
 
 nome = input ('Digite seu Nome: ')
