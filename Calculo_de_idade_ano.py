@@ -9,13 +9,14 @@ calculo_ano_80 = (calculo_do_ano_nascimento + idade_80)
 
 print ('Idade digidata: ' + str(idade)) 
 print ('O seu ano de nascimento é: ' + str(calculo_do_ano_nascimento))
-print ('O ano que ira completar os 80 anos será: ' + str(calculo_ano_80))
+print ('O ano que ira completar os 80 anos será: ' + str(calculo_ano_80),'\n')
 #FIM
 
 # Outra forma para o mesmo codigo
 
+print('Codigo Simplificado')
 idade = int(input(' Digite sua idade: '))
 idade_nascimento = 2023 - idade
 idade_80 = idade_nascimento + 80
 
-print('Sua idade atual: ' + str(idade) + ' Voce nasceu em: ' + str(idade_nascimento) + ' Voce tera 80 ano em: ' + str(idade_80))
+print('Sua idade atual: ' + str(idade) + ', Voce nasceu em: ' + str(idade_nascimento) + ', Voce tera 80 ano em: ' + str(idade_80),'\n')
